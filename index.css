@@ -10,7 +10,7 @@
     border: 1px solid lightgray;
     border-radius: 4px;
     padding: 5px 25px 5px 25px;
-    margin: 10px auto 10px auto;
+    margin: 100px auto 10px auto;
     width: 350px;
 }
 
@@ -59,7 +59,7 @@ button {
     padding: 5px;
 }
 
-a {
+.blue-link {
     text-decoration: none;
     color: rgb(0, 150, 255)
 }
@@ -67,4 +67,61 @@ a {
 .help {
     font-size: .8em;
     padding-left: 15px;
+}
+
+.new-to-Amazon {
+    display: flex;
+    justify-content: center;
+    margin: -10px;
+}
+
+.new-decoration {
+    border-bottom: 1px solid black;
+    width: 375px;
+    line-height: 0.05em;
+    text-align: center;
+}
+
+.new-text {
+    font-weight: normal;
+    font-size: .8em;
+    background: white;
+    padding: 0 8px;
+    color: rgb(118,118,118)
+}
+
+.create-account {
+    display: flex;
+    justify-content: center;
+}
+
+.create-amazon-account {
+    text-align: center;
+    width: 375px;
+    border: 1px solid rgb(173,177,184);
+    font-size: .8em;
+    padding: 5px 0;
+    background-color: rgb(231, 233, 236);
+    margin-bottom: 50px;
+}
+
+.gray-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-link {
+    font-size: 0.75em;
+}
+
+.amazon-copyright {
+    text-align: center;
+    font-size: 0.6em;
 }
